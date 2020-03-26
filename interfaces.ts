@@ -71,7 +71,7 @@ interface IStyles {
     [key: string]: string
 }
 
-const css: IStyles = {
+const css: Record<string, string> = {
     border: '1px solid black',
     marginTop: '2px',
     borderRadius: '5px'

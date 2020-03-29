@@ -105,3 +105,13 @@ function createAndValidateCar(model: string, year: number): Car {
 }
 
 // ===================================
+
+const cars: Readonly<Array<string>> = ['Ford', 'Audi'];
+cars[1];
+
+const ford: Readonly<Car> = {
+    model: 'Ford',
+    year: 2020
+};
+
+// ford.model = 'Ferrari';
